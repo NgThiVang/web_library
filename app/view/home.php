@@ -1,4 +1,6 @@
-<?php if(!isset($_GET['page'])) header('location:../../index.php?page=home'); ?>
+<?php 
+// if(!isset($_GET['page'])) header('location:../../index.php?page=home');
+ ?>
 <div style="border: 1px solid #5b9bd5; height:500px" class="container">
     <div class="row" style="margin-bottom:5px;">
         <label for="">Tên login: <span><?php if (isset($_SESSION['authen'])) {

@@ -20,4 +20,19 @@ define('DB_PASSWORD', '29e1d52c');
 //               return $this->pass;
 //        }
 // }
+// mảng tác giả
+$listAuthor = [
+	'k1'=> 'Trịnh Văn Quyết',
+	'k2'=> 'Đinh Hoàng Anh',
+	'k3'=> 'Lão Hạc',
+	'k4'=> 'Dadvid Đặng',
+	'k5'=> 'Maitainer',
+	];
+// Mảng tên chuyên ngành
+$listCategory = [
+	'001' => 'Tiểu thuyết',
+	'002' => 'Giáo trình',
+	'003' => 'Kinh tế',
+
+];
 ?>
